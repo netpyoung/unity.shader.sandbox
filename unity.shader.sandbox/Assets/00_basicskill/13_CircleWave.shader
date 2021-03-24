@@ -67,9 +67,10 @@ Shader "basicskill/13_CircleWave"
 				half2 p = (IN.uv - 0.5) * 2;
 
 				// 의사 난수로 좌표를 상하좌우로 흔들기
-				p += (Hash2(_Time.y) * 2 - 1) * 0.14;
+				half2 offset = (Hash2(_Time.y) * 2 - 1) * 0.14;
 				// 감쇠시키기
-				p *= exp(-6.5 * frac(_Time.y));
+				offset *= exp(-6.5 * frac(_Time.y));
+				p += offset;
 
 				half d = Circle(p);
 				half3 color = 1 - smoothstep(0.39, 0.4, d);
