@@ -16,5 +16,6 @@
 - <https://github.com/shoya140/paletta>
 - <https://github.com/glslify/glsl-easings>
 - <https://github.com/jolivain/glslsandbox-player>
+- <https://github.com/smkplus/ShaderMan>
 - <https://github.com/dfranx/SHADERed>
 - [LiveCoding in CommonLisp](https://www.youtube.com/watch?v=__BTXvpdudI)
