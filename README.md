@@ -18,4 +18,5 @@
 - <https://github.com/jolivain/glslsandbox-player>
 - <https://github.com/smkplus/ShaderMan>
 - <https://github.com/dfranx/SHADERed>
+- [(UnityShader) Koch Snowflake Part 1](https://walll4542.wixsite.com/watchthis/post/unityshader-koch-snowflake)
 - [LiveCoding in CommonLisp](https://www.youtube.com/watch?v=__BTXvpdudI)
